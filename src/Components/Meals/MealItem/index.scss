@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@media (max-width: 1536px) {
+    .meal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 1rem 0.4rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        transition: 0.3s;
+        background-image: url("../../assets//Media/foodwallpapers.jpg");
+        background-size: cover;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 3px 2px rgb(28, 27, 27);
+        max-height: 90%;
+
+        .foodImg {
+            width: 9rem;
+            height: 9rem;
+            object-fit: cover;
+            object-position: center;
+            margin-bottom: 0.3rem;
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        overflow: hidden;
+    }
+
+    .meal h3 {
+        font-size: 1.4rem;
+        margin: 0 0 0.25rem 0;
+        font-family: "Pacifico", cursive;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .description {
+        text-align: center;
+        font-style: italic;
+    }
+
+    .price {
+        margin: 0.25rem 0;
+        font-weight: bold;
+        color: rgb(14, 78, 14);
+        font-size: 1.25rem;
+
+        >.sale {
+            margin-right: 0.7rem;
+            color: rgb(202, 75, 29);
+            text-decoration: line-through;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .meal {
+        h3 {
+            font-size: 1.1rem;
+        }
+
+        .description {
+            font-size: 0.75rem;
+        }
+
+        .price {
+            font-size: 1rem;
+        }
+
+    }
+}
+
+@media (max-width: 930px) {
+    .meal {
+        padding: 0.5rem;
+
+        .foodImg {
+            width: 7rem;
+            height: 7rem;
+        }
+
+        .price {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (max-width: 610px) {
+    .meal {
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .meal h3 {
+        font-size: 1rem;
+    }
+    .meal {
+        .foodImg {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+}

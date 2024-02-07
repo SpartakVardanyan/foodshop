@@ -1,0 +1,35 @@
+@media (max-width: 1536px) {
+
+
+    .input {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .input label {
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+
+    .input input {
+        width: 3rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font: inherit;
+        background-color: #ffffffe8;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+        text-align: center;
+    }
+}
+
+@media (max-width: 930px) {
+    .input label {
+        font-size: 0.8rem;
+    }
+    .input input {
+        width: 2.4rem;
+        height: 1rem;
+        font-size: 0.9rem;
+    }
+}

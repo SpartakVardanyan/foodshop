@@ -1,0 +1,32 @@
+.summary {
+    width: 49%;
+    margin: auto;
+    margin-top: -19rem;
+    margin-bottom: 13rem;
+    position: relative;
+    background-color: rgba(73, 73, 73, 0.464);
+    color: white;
+    border-radius: 4px;
+    padding: 1rem;
+
+    p {
+        color: white;
+        text-align: justify;
+    }
+
+    .saleDescription {
+        margin-top: 0.2rem;
+        text-align: right;
+        strong {
+            color: rgb(45, 148, 45);
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.summary h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 0;
+    color: rgb(255, 128, 0);
+}

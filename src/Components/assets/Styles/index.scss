@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body::after {
+    content: "";
+    background-image: url("../Media/wallpaper2.jpg");
+    background-color: rgba(255, 255, 255, 0.1);
+    background-repeat: repeat;
+    background-size: 33%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.86;
+    z-index: -1;
+}
+
+
+
+.up {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    bottom: 1.3rem;
+    right: 0.8rem;
+    color: rgb(0, 0, 0);
+    z-index: 99999;
+    font-size: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(243, 243, 243, 0.69);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s visibility, 0.4s opacity;
+}
+.up.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 1800px) {
+    .spinner {
+        margin: 15% auto;
+        z-index: 10000;
+        width: 70px;
+        height: 70px;
+        border: 4px solid;
+        border-color: rgb(217, 105, 0) transparent rgb(217, 105, 0) transparent;
+        border-radius: 50%;
+        animation: spinner 1s linear infinite;
+    }
+}
+
+@media (max-width: 400px) {
+    .spinner {
+        margin: 20rem auto;
+        
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
