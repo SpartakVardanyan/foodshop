@@ -56,8 +56,8 @@ function App() {
         <div className="App">
             <Routes basename="/foodshop">
                 <Route exact path="/foodshop" element={<MainMealsPage />} />
-                <Route path="/foodshop/login" element={<Login setLoading={setLoading} loading={loading} />} />
-                <Route path="/foodshop/signup" element={<Signup setLoading={setLoading} loading={loading} />} />
+                <Route path="/login" element={<Login setLoading={setLoading} loading={loading} />} />
+                <Route path="/signup" element={<Signup setLoading={setLoading} loading={loading} />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </div>

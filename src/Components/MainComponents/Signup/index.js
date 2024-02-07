@@ -60,7 +60,7 @@ const Signup = ({ loading, setLoading }) => {
                                     const newUser = { data: { name, surname, email, password } };
                                     dispatch(signupUser([newUser, ...users]));
                                     setName(""); setSurname(""); setEmail(""); setPassword(""); setRepeatPassword("");
-                                    navigate("/foodshop/login");
+                                    navigate("/login");
                                 }
                             } catch (error) {
                                 console.error(error);
@@ -125,7 +125,7 @@ const Signup = ({ loading, setLoading }) => {
                     {repeatPasswordError && <p className="error-message">{repeatPasswordError}</p>}
 
                     <button>Signup</button>
-                    <span><Link to="/foodshop/login">Already have an account? Log in here.</Link></span>
+                    <span><Link to="/login">Already have an account? Log in here.</Link></span>
                 </form >
             }
         </>

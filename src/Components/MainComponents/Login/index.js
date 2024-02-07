@@ -37,7 +37,7 @@ const Login = ({ loading }) => {
                     dispatch(logedIn(valid.uid));
                     localStorage.setItem("currentUser", valid.uid);
                     setEmail(""); setPassword("");
-                    navigate("/");
+                    navigate("/foodshop");
                 }
             } catch (error) {
                 console.error(error);
@@ -77,7 +77,7 @@ const Login = ({ loading }) => {
                     {passwordError && <p className="error-message">{passwordError}</p>}
 
                     <button>Login</button>
-                    <span><Link to="/foodshop/signup">Don't have an account yet? Sign up here.</Link></span>
+                    <span><Link to="/signup">Don't have an account yet? Sign up here.</Link></span>
                 </form >}
         </>
     );
