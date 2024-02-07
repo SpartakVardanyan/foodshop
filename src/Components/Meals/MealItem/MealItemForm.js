@@ -11,10 +11,6 @@ const MealItemForm = ({ id, addToCart }) => {
 
         const value = +inputRef.current.value;
 
-        if(value <= 0 || value >= 50) {
-            return alert("Please write a valid amount");
-        }
-
         inputRef.current.value = 1;
         addToCart(value);
     };
@@ -34,6 +30,9 @@ const MealItemForm = ({ id, addToCart }) => {
                 input={{
                     id,
                     type: "number",
+                    min: "1",
+                    max: "50",
+                    inputmode: "numeric",
                     defaultValue: 1
                 }}
             />
