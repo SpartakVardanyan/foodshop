@@ -17,7 +17,7 @@ $orangeColor: rgb(255, 132, 0);
         >span {
             font-size: 0.9rem;
             position: absolute;
-            top: 0.8rem;
+            top: 0.4rem;
             right: .7rem;
         }
         .cart-button-icon {
@@ -51,8 +51,8 @@ $orangeColor: rgb(255, 132, 0);
         >span {
             font-size: 0.9rem;
             position: absolute;
-            top: .5rem;
-            right: .7rem;
+            top: 0.4rem;
+            right: 0.7rem;
         }
     }
 
@@ -177,7 +177,7 @@ $orangeColor: rgb(255, 132, 0);
             margin-right: 3rem;
 
             >span {
-                top: 0;
+                top: -0.1rem;
             }
 
             .cart-button-icon {
@@ -220,7 +220,7 @@ $orangeColor: rgb(255, 132, 0);
             }
 
             >span {
-                top: 0;
+                top: -0.1rem;
             }
 
             .cart-button-icon,
@@ -289,13 +289,13 @@ $orangeColor: rgb(255, 132, 0);
             }
 
             >span {
-                top: 0;
+                top: 0.3;
             }
         }
 
         .cart-button-loggedIn {
             > span {
-                font-size: 0.7rem;
+                font-size: 0.3rem;
                 top: 0.8rem;
             }
             .cart-button-icon {
@@ -350,11 +350,12 @@ $orangeColor: rgb(255, 132, 0);
 
             .cart-button-icon,
             .cart-button-loggedIn {
-                width: 1.2rem;
-                height: 1.2rem;
+                width: 1.6rem;
+                height: 1.6rem;
             }
 
             >span {
+                right: 0.5rem;
                 font-size: 0.8rem;
             }
         }
