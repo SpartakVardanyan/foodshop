@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/foodshop/static/css/main.313ff0ea.css",
+    "main.js": "/foodshop/static/js/main.41a8c08c.js",
+    "static/media/25.jpg": "/foodshop/static/media/25.d5a5af23a8dbdb91cee1.jpg",
+    "static/media/wallpaper.jpg": "/foodshop/static/media/wallpaper.726927faea6850b4fc5f.jpg",
+    "static/media/0.jpeg": "/foodshop/static/media/0.bd8d6dc7181aa68f77ec.jpeg",
+    "static/media/22.jpg": "/foodshop/static/media/22.450b145644e49eaf837f.jpg",
+    "static/media/23.jpg": "/foodshop/static/media/23.7d8aa8959f35034ddeb3.jpg",
+    "static/media/foodwallpapers.jpg": "/foodshop/static/media/foodwallpapers.54cecb1598f8399721ba.jpg",
+    "static/media/2.jpg": "/foodshop/static/media/2.5aa2c8d4f7c7f5aee71d.jpg",
+    "static/media/7.jpg": "/foodshop/static/media/7.7338b3b8dd10812ad97f.jpg",
+    "static/media/12.jpg": "/foodshop/static/media/12.31e773aa00fd9e6595d4.jpg",
+    "static/media/5.jpg": "/foodshop/static/media/5.632567e2181dbe466349.jpg",
+    "static/media/14.jpg": "/foodshop/static/media/14.d3f2fe68dc478a3aebd2.jpg",
+    "static/media/19.jpg": "/foodshop/static/media/19.e8592606614d2d352b07.jpg",
+    "static/media/9.jpg": "/foodshop/static/media/9.47666f10247d518646de.jpg",
+    "static/media/15.jpg": "/foodshop/static/media/15.cae7e84271987c34b0a7.jpg",
+    "static/media/11.jpg": "/foodshop/static/media/11.06256925975339befb84.jpg",
+    "static/media/3.jpg": "/foodshop/static/media/3.d9b54ac5c486ebabccc3.jpg",
+    "static/media/18.jpg": "/foodshop/static/media/18.c22608f9f9664e36faa2.jpg",
+    "static/media/13.jpg": "/foodshop/static/media/13.edb70adff147005a2f28.jpg",
+    "static/media/21.jpg": "/foodshop/static/media/21.393c8600079c25ad5c09.jpg",
+    "static/media/24.jpg": "/foodshop/static/media/24.7c651cb01b76fb2b84d8.jpg",
+    "static/media/20.jpg": "/foodshop/static/media/20.5e2c96f253ff2ab30d53.jpg",
+    "static/media/16.jpg": "/foodshop/static/media/16.0d87d81e9bc4a9614e53.jpg",
+    "static/media/wallpaper2.jpg": "/foodshop/static/media/wallpaper2.da3531d601930f2319ef.jpg",
+    "static/media/6.jpg": "/foodshop/static/media/6.9f2e2c1ba75baa37c3b7.jpg",
+    "static/media/1.jpg": "/foodshop/static/media/1.799cb2ff491cb3b55a85.jpg",
+    "static/media/10.jpg": "/foodshop/static/media/10.2df9d9fa167909c3adcd.jpg",
+    "index.html": "/foodshop/index.html",
+    "main.313ff0ea.css.map": "/foodshop/static/css/main.313ff0ea.css.map",
+    "main.41a8c08c.js.map": "/foodshop/static/js/main.41a8c08c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.313ff0ea.css",
+    "static/js/main.41a8c08c.js"
+  ]
+}
