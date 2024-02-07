@@ -37,13 +37,13 @@ const Signup = ({ loading, setLoading }) => {
     const [repeatPassShown, setRepeatPassShown] = useState(false);
 
     function navToFood() {
-        navigate("/");
+        navigate("/foodshop");
     }
 
     return (
         <>
             {loading && <div className="spinner"></div>}
-            {loading === false && loggedIn === true && (<p className="signupError" onClick={() => navigate("/")}>You are also logged in.If you want to switch your account, please log out and try again to signup.Click here to go food page</p>)}
+            {loading === false && loggedIn === true && (<p className="signupError" onClick={() => navigate("/foodshop")}>You are also logged in.If you want to switch your account, please log out and try again to signup.Click here to go food page</p>)}
             {loading === false && loggedIn === false &&
                 <form className="Signup"
                     onSubmit={
@@ -60,7 +60,7 @@ const Signup = ({ loading, setLoading }) => {
                                     const newUser = { data: { name, surname, email, password } };
                                     dispatch(signupUser([newUser, ...users]));
                                     setName(""); setSurname(""); setEmail(""); setPassword(""); setRepeatPassword("");
-                                    navigate("/login");
+                                    navigate("/foodshop/login");
                                 }
                             } catch (error) {
                                 console.error(error);
@@ -125,7 +125,7 @@ const Signup = ({ loading, setLoading }) => {
                     {repeatPasswordError && <p className="error-message">{repeatPasswordError}</p>}
 
                     <button>Signup</button>
-                    <span><Link to="/login">Already have an account? Log in here.</Link></span>
+                    <span><Link to="/foodshop/login">Already have an account? Log in here.</Link></span>
                 </form >
             }
         </>

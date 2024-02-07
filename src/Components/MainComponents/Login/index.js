@@ -25,7 +25,7 @@ const Login = ({ loading }) => {
     }
 
     function navToFood() {
-        navigate("/");
+        navigate("/foodshop");
     }
 
     const handleSubmit = async (e) => {
@@ -48,7 +48,7 @@ const Login = ({ loading }) => {
     return (
         <>
             {loading && <div className="spinner"></div>}
-            {loading === false && loggedIn === true && (<p className="loginError" onClick={() => navigate("/")}>You are also logged in.If you want to switch your account, please log out and try again to signup.Click here to go food page</p>)}
+            {loading === false && loggedIn === true && (<p className="loginError" onClick={() => navigate("/foodshop")}>You are also logged in.If you want to switch your account, please log out and try again to signup.Click here to go food page</p>)}
             {loading === false && loggedIn === false &&
                 <form
                     className="Login"
@@ -77,7 +77,7 @@ const Login = ({ loading }) => {
                     {passwordError && <p className="error-message">{passwordError}</p>}
 
                     <button>Login</button>
-                    <span><Link to="/signup">Don't have an account yet? Sign up here.</Link></span>
+                    <span><Link to="/foodshop/signup">Don't have an account yet? Sign up here.</Link></span>
                 </form >}
         </>
     );
