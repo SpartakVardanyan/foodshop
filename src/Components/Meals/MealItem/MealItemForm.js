@@ -15,6 +15,7 @@ const MealItemForm = ({ id, addToCart }) => {
             return alert("Please write a valid amount");
         }
 
+        inputRef.current.value = 1;
         addToCart(value);
     };
 
@@ -22,7 +23,7 @@ const MealItemForm = ({ id, addToCart }) => {
         setBuy(true);
         setTimeout(() => {
             setBuy(false);
-        }, 200);
+        }, 100);
     };
 
     return (
@@ -36,7 +37,7 @@ const MealItemForm = ({ id, addToCart }) => {
                     defaultValue: 1
                 }}
             />
-            <button onClick={buyItem} style={{background: buy && "#335c16", transform: buy && "scale(1.1)"}}>+ Add</button>
+            <button onClick={buyItem} style={{background: buy && "#335c16", transform: buy && "scale(1.1)"}}>+</button>
         </form>
     );
 };

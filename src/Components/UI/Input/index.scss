@@ -2,7 +2,7 @@
     .input {
         display: flex;
         align-items: center;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.2rem;
     }
 
     .input label {
@@ -15,9 +15,11 @@
         border-radius: 5px;
         border: 1px solid #ccc;
         font: inherit;
-        background-color: #ffffffe8;
+        background-color: #ffffff61;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
         text-align: center;
+        font-weight: 600;
+        padding: 0.06rem 0;
     }
 }
 
@@ -27,7 +29,6 @@
     }
     .input input {
         width: 2.4rem;
-        height: 1rem;
         font-size: 0.9rem;
     }
 }
