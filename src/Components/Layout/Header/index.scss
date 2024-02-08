@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
 $orangeColor: rgb(255, 132, 0);
 
-@media (max-width: 1536px) {
+@media (max-width: 2800px) {
+    .header > h1 {
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+        font-weight: 650;
+        font-style: normal;
+    }
+    
     .cart-button {
         border: none;
         cursor: pointer;

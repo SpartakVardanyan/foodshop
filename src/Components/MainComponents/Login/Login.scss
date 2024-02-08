@@ -1,5 +1,14 @@
 $orangeColor: rgb(255, 132, 0);
-@media (max-width: 1800px) {
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+// h1 {
+//     font-family: "Merienda", cursive;
+//     font-optical-sizing: auto;
+//     font-weight: 650;
+//     font-style: normal;
+// }
+
+@media (max-width: 2800px) {
     .loginError {
         color: white;
         background-color: rgba(0, 0, 0, 0.5);
@@ -31,6 +40,10 @@ $orangeColor: rgb(255, 132, 0);
             font-size: 2.5rem;
             margin-bottom: .2rem;
             cursor: pointer;
+            font-family: "Merienda", cursive;
+            font-optical-sizing: auto;
+            font-weight: bolder;
+            font-style: normal;
 
             >span {
                 color: $orangeColor;
@@ -149,25 +162,31 @@ $orangeColor: rgb(255, 132, 0);
         margin-top: 40%;
         width: 80%;
         border-radius: 0;
+
         h1 {
             font-size: 2rem;
         }
+
         input {
             height: 2rem;
             font-size: 0.8rem;
         }
+
         .pass .eye {
             font-size: 1.1rem;
         }
+
         button {
             width: 5.5rem;
             height: 1.5rem;
             margin-top: 0.5rem;
             font-size: 0.8rem;
         }
-        > span {
+
+        >span {
             font-size: 0.8rem;
         }
+
         .error-message {
             font-size: 0.83rem;
         }

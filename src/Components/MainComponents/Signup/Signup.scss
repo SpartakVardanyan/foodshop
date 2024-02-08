@@ -1,5 +1,6 @@
 $orangeColor: rgb(255, 132, 0);
-@media (max-width: 1800px) {
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@media (max-width: 2800px) {
 
     .Signup {
         width: 40%;
@@ -19,6 +20,10 @@ $orangeColor: rgb(255, 132, 0);
             font-size: 2.5rem;
             cursor: pointer;
             margin-bottom: .2rem;
+            font-family: "Merienda", cursive;
+            font-optical-sizing: auto;
+            font-weight: 650;
+            font-style: normal;
 
             >span {
                 color: $orangeColor;
