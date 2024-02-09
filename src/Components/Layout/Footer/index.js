@@ -6,6 +6,7 @@ import { TfiTwitterAlt } from "react-icons/tfi";
 import { FaLinkedin } from "react-icons/fa";
 import { useSelector } from "react-redux";
 import './index.scss';
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
     const [loading, setLoading] = useState(false);
@@ -20,6 +21,7 @@ const Footer = () => {
     const [commentError, setCommentError] = useState(false);
 
     const loggedIn = useSelector(state => state.users.loggedIn);
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -86,6 +88,7 @@ const Footer = () => {
                         <span><TfiTwitterAlt /></span>
                         <span><FaLinkedin /></span>
                     </div>
+                    <p className="lookComments" onClick={() => navigate("/comments")}>Look at the comments about us</p>
                 </div>
                 {!loading && <>
                     <form className="comment" onSubmit={handleSubmit}>

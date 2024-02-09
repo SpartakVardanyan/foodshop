@@ -13,6 +13,8 @@ $letterSpacing: 0.03rem;
         background-color: rgb(0, 0, 0);
     }
 
+
+
     .Footer {
         z-index: 12;
         width: 100%;
@@ -140,6 +142,16 @@ $letterSpacing: 0.03rem;
             letter-spacing: 0.2rem;
             margin-bottom: 2rem;
         }
+
+        .lookComments {
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 1rem;
+            color: rgb(163, 120, 40);
+            &:hover {
+                color: rgb(210, 108, 35);
+            }
+        }
     }
 
     .socIcons {
@@ -181,6 +193,8 @@ $letterSpacing: 0.03rem;
         }
 
         .contact {
+            margin-left: 3rem;
+
             h4 {
                 font-size: 1.2rem;
             }
@@ -242,6 +256,7 @@ $letterSpacing: 0.03rem;
 
         .comment {
             width: 30%;
+
             input {
                 height: 2.5rem;
                 font-size: 0.7rem;
@@ -268,13 +283,14 @@ $letterSpacing: 0.03rem;
     .Footer {
         height: 60rem;
         background-size: 90% 23rem;
+
         h3 {
             font-size: 2rem;
             margin: 1rem auto 6rem auto;
             padding: -3rem auto;
             color: rgb(255, 119, 0);
         }
-        
+
         >div {
             padding-top: 8rem;
             height: 16rem;
@@ -286,6 +302,7 @@ $letterSpacing: 0.03rem;
             width: 60%;
             text-align: center;
             margin: 1rem auto 0 auto;
+
             h4 {
                 font-size: 1rem;
                 letter-spacing: 0.05;
@@ -304,6 +321,7 @@ $letterSpacing: 0.03rem;
         .comment {
             width: 60%;
             margin: 1rem auto 2rem auto;
+
             input {
                 height: 2.5rem;
                 font-size: 0.7rem;
@@ -325,9 +343,11 @@ $letterSpacing: 0.03rem;
             }
         }
     }
+
     .socIcons {
         gap: 0;
-        > * {
+
+        >* {
             margin: auto;
         }
     }

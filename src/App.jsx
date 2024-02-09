@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import MainMealsPage from "./Components/MainComponents/MainMealsPage";
 import Signup from "./Components/MainComponents/Signup";
 import Login from "./Components/MainComponents/Login";
+import Comments from "./Components/MainComponents/Comments";
 import { useCallback, useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { logedIn } from "./Providers/usersSlice";
@@ -58,6 +59,7 @@ function App() {
                 <Route exact path="/foodshop" element={<MainMealsPage />} />
                 <Route path="/login" element={<Login setLoading={setLoading} loading={loading} />} />
                 <Route path="/signup" element={<Signup setLoading={setLoading} loading={loading} />} />
+                <Route path="/comments" element={<Comments />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </div>

@@ -1,0 +1,293 @@
+@media (max-width: 2800px) {
+    .Comments {
+        margin: 3rem auto;
+        width: 50%;
+        background-color: rgba(0, 0, 0, 0.759);
+        border-radius: 2rem;
+        padding: 2rem;
+
+        >span {
+            color: orange;
+            cursor: pointer;
+            
+            &:hover {
+                color: rgb(255, 102, 0);
+            }
+        }
+        
+        >h1 {
+            font-size: 2.5rem;
+            letter-spacing: 0.15rem;
+            color: orange;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
+
+    .comment {
+        margin: auto;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        width: 90%;
+        text-align: justify;
+        color: white;
+        display: flex;
+        gap: 1rem;
+
+        h4 {
+            font-size: 1.5rem;
+            color: rgb(255, 102, 0);
+            margin-bottom: 5px;
+            letter-spacing: 0.1rem;
+            display: flex;
+            justify-content: space-between;
+
+            >span {
+                padding-top: 0.3rem;
+                color: green;
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .mainComment {
+        width: 90%;
+        padding: 0.5rem 0;
+        margin-top: -0.7rem;
+        word-wrap: break-word;
+    }
+
+    .userIcon {
+        width: 3.2rem;
+        height: 3.2rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+
+        >* {
+            margin: auto;
+            font-size: 1.8rem;
+        }
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .Comments {
+        >h1 {
+            font-size: 2rem;
+        }
+    }
+    .comment {
+        h4 {
+            font-size: 1.2rem;
+            color: rgb(255, 102, 0);
+            margin-bottom: 5px;
+            letter-spacing: 0.1rem;
+            display: flex;
+            justify-content: space-between;
+
+            >span {
+                padding-top: 0.3rem;
+                color: green;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .userIcon {
+        width: 2.6rem;
+        height: 2.6rem;
+        >* {
+            margin: auto;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .Comments {
+        width: 70%;
+        >h1 {
+            margin-bottom: 1rem;
+            font-size: 1.7rem;
+        }
+        >span {
+            font-size: 0.8rem;
+        }
+    }
+    .comment {
+        h4 {
+            font-size: 1rem;
+            color: rgb(255, 102, 0);
+            margin-bottom: 5px;
+            letter-spacing: 0.1rem;
+            display: flex;
+            justify-content: space-between;
+
+            >span {
+                padding-top: 0.3rem;
+                color: green;
+                font-size: 0.7rem;
+            }
+        }
+    }
+    .userIcon {
+        width: 2.3rem;
+        height: 2.3rem;
+        >* {
+            margin: auto;
+            font-size: 1.1rem;
+        }
+    }
+    .mainComment > p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 760px) {
+    .Comments {
+        >h1 {
+            font-size: 1.4rem;
+            
+        }
+        >span {
+            font-size: 0.7rem;
+        }
+    }
+    .comment {
+        width: 100%;
+        h4 {
+            font-size: 0.9rem;
+            color: rgb(255, 102, 0);
+            margin-bottom: 5px;
+            letter-spacing: 0.1rem;
+            display: flex;
+            justify-content: space-between;
+
+            >span {
+                padding-top: 0.3rem;
+                color: green;
+                font-size: 0.6rem;
+            }
+        }
+    }
+    .userIcon {
+        width: 2rem;
+        height: 2rem;
+        >* {
+            margin: auto;
+            font-size: 1.1rem;
+        }
+    }
+    .mainComment > p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .Comments {
+        >h1 {
+            margin-bottom: 0.9rem;
+            font-size: 1.2rem;
+        }
+        >span {
+            font-size: 0.7rem;
+        }
+    }
+    .comment {
+        width: 100%;
+        h4 {
+            font-size: 0.7rem;
+            color: rgb(255, 102, 0);
+            margin-bottom: 5px;
+            letter-spacing: 0.1rem;
+            display: flex;
+            justify-content: space-between;
+
+            >span {
+                padding-top: 0.3rem;
+                color: green;
+                font-size: 0.4rem;
+            }
+        }
+    }
+    .userIcon {
+        width: 1.7rem;
+        height: 1.7rem;
+        >* {
+            margin: auto;
+            font-size: 0.9rem;
+        }
+    }
+    .mainComment > p {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .Comments {
+        width: 90%;
+        >h1 {
+            font-size: 1.2rem;
+        }
+        >span {
+            font-size: 0.7rem;
+        }
+    }
+    .comment {
+        h4 {
+            font-size: 0.5rem;
+            >span {
+                padding-top: -0.8rem;
+                font-size: 0.4rem;
+            }
+        }
+    }
+    .userIcon {
+        width: 1.4rem;
+        height: 1.4rem;
+        >* {
+            margin: auto;
+            font-size: 0.6rem;
+        }
+    }
+    .mainComment > p {
+        font-size: 0.5rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .Comments {
+        >h1 {
+            font-size: 1rem;
+        }
+        >span {
+            font-size: 0.55rem;
+        }
+    }
+    .comment {
+        h4 {
+            font-size: 0.5rem;
+            >span {
+                padding-top: -0.8rem;
+                font-size: 0.4rem;
+            }
+        }
+    }
+    .userIcon {
+        width: 1.2rem;
+        height: 1.2rem;
+        >* {
+            margin: auto;
+            font-size: 0.6rem;
+        }
+    }
+    .mainComment > p {
+        font-size: 0.5rem;
+    }
+}
