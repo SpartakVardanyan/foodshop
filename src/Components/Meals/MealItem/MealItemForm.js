@@ -32,7 +32,7 @@ const MealItemForm = ({ id, addToCart }) => {
                     type: "number",
                     min: "1",
                     max: "50",
-                    inputmode: "numeric",
+                    inputMode: "numeric",
                     defaultValue: 1
                 }}
             />

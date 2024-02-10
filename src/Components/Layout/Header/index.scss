@@ -250,6 +250,9 @@ $orangeColor: rgb(255, 132, 0);
             width: 160%;
         }
     }
+    .header > .cart-button > span {
+        font-size: 0.8rem;
+    }
 }
 
 @media (max-width: 660px) {
