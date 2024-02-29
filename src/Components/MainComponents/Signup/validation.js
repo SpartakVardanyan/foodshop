@@ -6,8 +6,8 @@ export function validate(name, surname, email, password, repeatPassword, setName
     let repeatPasswordSuccess = true;
 
     function existsEmail(mail) {
-        for(const item of users) {
-            if(item.data.email === mail) {
+        for (const item of users) {
+            if (item.data.email === mail) {
                 return true;
             }
         }
@@ -73,6 +73,6 @@ export function validate(name, surname, email, password, repeatPassword, setName
         setRepeatPasswordError(false);
     }
 
-    
+
     return nameSuccess && surnameSuccess && emailSuccess && passwordSuccess && repeatPasswordSuccess;
 }

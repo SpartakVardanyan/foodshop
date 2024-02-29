@@ -12,13 +12,13 @@ import { getUsers } from "./Providers/usersSlice";
 import NotFound from "./Components/MainComponents/NotFound";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCcEva3ouomFpUtyzD7kghDgayX0DismVM",
-    authDomain: "myfirebase-2024.firebaseapp.com",
-    projectId: "myfirebase-2024",
-    storageBucket: "myfirebase-2024.appspot.com",
-    messagingSenderId: "46738208762",
-    appId: "1:46738208762:web:2e30f99cd4f95eb13c1643",
-    measurementId: "G-WM8Q1DVVVB"
+    apiKey: "AIzaSyBqmh8ZzS1Km88pCiLOFvyddBjBmoxcgfg",
+    authDomain: "food-app-2024.firebaseapp.com",
+    projectId: "food-app-2024",
+    storageBucket: "food-app-2024.appspot.com",
+    messagingSenderId: "461846007512",
+    appId: "1:461846007512:web:4d82be31f5958c53b611ad",
+    measurementId: "G-8FRHYNCLRX"
 };
 
 initializeApp(firebaseConfig);
@@ -28,10 +28,10 @@ function App() {
     const [loading, setLoading] = useState();
 
     useEffect(() => {
-        if(localStorage.getItem("currentUser")) {
+        if (localStorage.getItem("currentUser")) {
             dispatch(logedIn(true));
         }
-    },[dispatch]);
+    }, [dispatch]);
 
     const fetchData = useCallback(async () => {
         try {
@@ -41,6 +41,7 @@ function App() {
             const snapshot = await getDocs(colRef);
             const users = await snapshot.docs.map((item) => ({ id: item.id, ...item.data() }));
             dispatch(getUsers(users));
+            console.log(users);
         } catch (error) {
             console.error(error);
         } finally {
