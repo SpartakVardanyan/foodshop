@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/foodshop/static/css/main.dc33e9fd.css",
-    "main.js": "/foodshop/static/js/main.8e002326.js",
+    "main.js": "/foodshop/static/js/main.36e11f68.js",
     "static/media/25.jpg": "/foodshop/static/media/25.d5a5af23a8dbdb91cee1.jpg",
     "static/media/wallpaper.jpg": "/foodshop/static/media/wallpaper.726927faea6850b4fc5f.jpg",
     "static/media/0.jpeg": "/foodshop/static/media/0.bd8d6dc7181aa68f77ec.jpeg",
@@ -30,10 +30,10 @@
     "static/media/10.jpg": "/foodshop/static/media/10.2df9d9fa167909c3adcd.jpg",
     "index.html": "/foodshop/index.html",
     "main.dc33e9fd.css.map": "/foodshop/static/css/main.dc33e9fd.css.map",
-    "main.8e002326.js.map": "/foodshop/static/js/main.8e002326.js.map"
+    "main.36e11f68.js.map": "/foodshop/static/js/main.36e11f68.js.map"
   },
   "entrypoints": [
     "static/css/main.dc33e9fd.css",
-    "static/js/main.8e002326.js"
+    "static/js/main.36e11f68.js"
   ]
 }
