@@ -8,25 +8,8 @@ import wallpaper from "../../assets/Media/wallpaper.jpg";
 import "./index.scss";
 
 const Header = ({ onShowCart }) => {
-    const [prevScrollPos, setPrevScrollPos] = useState(0);
-    const [visible, setVisible] = useState(true);
     const dispatch = useDispatch();
     const loggedIn = useSelector(state => state.users.loggedIn);
-
-    function handleScroll() {
-        const currentScrollPos = window.scrollY;
-        setVisible(currentScrollPos < prevScrollPos || currentScrollPos < 100);
-        setPrevScrollPos(currentScrollPos);
-    }
-
-    useEffect(() => {
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        }
-    });
-
 
     function logout() {
         localStorage.removeItem("currentUser");
@@ -42,7 +25,7 @@ const Header = ({ onShowCart }) => {
 
     return (
         <>
-            <header className="header" style={{ top: visible ? 0 : "-100px" }}>
+            <header className="header">
                 <h1 onClick={goUp}>F<span>OO</span>DSH<span>O</span>P</h1>
                 <CartButton onShowCart={onShowCart} loggedIn={loggedIn} />
                 {loggedIn === false && <div className="userAcc">
