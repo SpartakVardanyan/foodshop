@@ -12,13 +12,12 @@ import { getUsers } from "./Providers/usersSlice";
 import NotFound from "./Components/MainComponents/NotFound";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBqmh8ZzS1Km88pCiLOFvyddBjBmoxcgfg",
-    authDomain: "food-app-2024.firebaseapp.com",
-    projectId: "food-app-2024",
-    storageBucket: "food-app-2024.appspot.com",
-    messagingSenderId: "461846007512",
-    appId: "1:461846007512:web:4d82be31f5958c53b611ad",
-    measurementId: "G-8FRHYNCLRX"
+    apiKey: "AIzaSyBAFLg4dKD-lyPJodBZXEAiKiLMTjiqO0k",
+    authDomain: "foodshopdeploy.firebaseapp.com",
+    projectId: "foodshopdeploy",
+    storageBucket: "foodshopdeploy.appspot.com",
+    messagingSenderId: "398173169384",
+    appId: "1:398173169384:web:984f09dcff646665d78b5d"
 };
 
 initializeApp(firebaseConfig);
