@@ -16,7 +16,7 @@ const Signup = ({ loading, setLoading }) => {
     }, []);
     const [colRef, setColRef] = useState(null);
     const users = useSelector(state => state.users.users);
-    
+
     const loggedIn = useSelector(state => state.users.loggedIn);
     const dispatch = useDispatch();
     const navigate = useNavigate();
