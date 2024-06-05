@@ -12,12 +12,12 @@ import { getUsers } from "./Providers/usersSlice";
 import NotFound from "./Components/MainComponents/NotFound";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBAFLg4dKD-lyPJodBZXEAiKiLMTjiqO0k",
-    authDomain: "foodshopdeploy.firebaseapp.com",
-    projectId: "foodshopdeploy",
-    storageBucket: "foodshopdeploy.appspot.com",
-    messagingSenderId: "398173169384",
-    appId: "1:398173169384:web:984f09dcff646665d78b5d"
+    apiKey: "AIzaSyAzesqRIPKb7cz1ln-LYFEWZbwLzxID0Mk",
+    authDomain: "foodshop04062024.firebaseapp.com",
+    projectId: "foodshop04062024",
+    storageBucket: "foodshop04062024.appspot.com",
+    messagingSenderId: "793523953835",
+    appId: "1:793523953835:web:76352f67177cee0fa9d7ee"
 };
 
 initializeApp(firebaseConfig);
@@ -40,7 +40,6 @@ function App() {
             const snapshot = await getDocs(colRef);
             const users = await snapshot.docs.map((item) => ({ id: item.id, ...item.data() }));
             dispatch(getUsers(users));
-            console.log(users);
         } catch (error) {
             console.error(error);
         } finally {

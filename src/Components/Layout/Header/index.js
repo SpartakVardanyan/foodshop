@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { IoIosLogOut } from "react-icons/io";
 import CartButton from "./CartButton";
 import { useDispatch, useSelector } from "react-redux";

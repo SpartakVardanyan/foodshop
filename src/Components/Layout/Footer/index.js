@@ -80,8 +80,8 @@ const Footer = () => {
 
                 <div className="contact">
                     <h4>Getting in touch is easy!</h4>
-                    <p>Tel: +374 98-60-64-88</p>
-                    <p>E-mail: foodshop@gmail.com</p>
+                    <p>Tel: +7(977)-900-00-87</p>
+                    <p>E-mail: spartak.vardanyan.2002@gmail.com</p>
                     <p>2345 Main Street Anywhere</p>
                     <div className='socIcons'>
                         <span><IoLogoFacebook /></span>
